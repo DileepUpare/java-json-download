@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>JSON</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
         }
-        a {
+        button {
             padding: 10px 20px;
             background-color: #4CAF50;
             color: white;
-            text-decoration: none;
+            border: none;
             border-radius: 5px;
+            cursor: pointer;
         }
-        a:hover {
+        button:hover {
             background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <a id="downloadLink" href="D:\Java Lab Json Download\java.json" download="java.json">Download java.json</a>
-
-   
+    <h1>Download PDF File</h1>
+    <a href="java.json" download="downloaded-file.pdf">
+        <button type="button">JSON</button>
+    </a>
 </body>
 </html>
